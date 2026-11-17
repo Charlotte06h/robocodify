@@ -1,0 +1,681 @@
+[
+  {
+    "experiment": "tower-seed0-random10-20261116",
+    "source_analysis_sha256": "f319f17672f3cb991930e772d683f397157ebc832c8ba5a1d19a5e7ce79a70c3",
+    "contemporaneous_baseline": false,
+    "episodes": [
+      {
+        "id": "13",
+        "task": "build_tower",
+        "layout": 13,
+        "environment_success": false,
+        "native_success": false,
+        "native_score_0_to_100": 10.0,
+        "agent_finish_status": "failure",
+        "env_steps": 1049,
+        "native_last_step_and_limit": [
+          1050,
+          1050
+        ],
+        "tool_turns": 32,
+        "python_cells": 31,
+        "policy_wall_s": 1063.7289931140258,
+        "total_wall_s": 1102.2288607269875,
+        "prompt_sha256": "494e4d3a5eef4811c043714b7d41a17b82f4ea9fba8e851da04e4a3c5149987a",
+        "record_counts": {
+          "Reported failure": 4,
+          "Local action scope": 4,
+          "Provisional diagnosis": 10,
+          "Static observation": 13,
+          "Revised diagnosis and proposed correction": 13,
+          "Retry outcome reported by agent": 12
+        },
+        "exception_count": 3
+      },
+      {
+        "id": "49",
+        "task": "build_tower",
+        "layout": 49,
+        "environment_success": true,
+        "native_success": true,
+        "native_score_0_to_100": 100.0,
+        "agent_finish_status": "failure",
+        "env_steps": 953,
+        "native_last_step_and_limit": [
+          954,
+          1050
+        ],
+        "tool_turns": 23,
+        "python_cells": 22,
+        "policy_wall_s": 714.7477878750069,
+        "total_wall_s": 757.3162527970271,
+        "prompt_sha256": "ab8b881f4f58dcf53d71b3ea56e75ffd41c2145c3107851e8dcd005b7520a0a2",
+        "record_counts": {
+          "Reported failure": 3,
+          "Local action scope": 3,
+          "Provisional diagnosis": 3,
+          "Revised diagnosis and proposed correction": 3,
+          "Static observation": 3,
+          "Retry outcome reported by agent": 2
+        },
+        "exception_count": 3
+      },
+      {
+        "id": "40",
+        "task": "build_tower",
+        "layout": 40,
+        "environment_success": true,
+        "native_success": true,
+        "native_score_0_to_100": 100.0,
+        "agent_finish_status": "failure",
+        "env_steps": 964,
+        "native_last_step_and_limit": [
+          965,
+          1050
+        ],
+        "tool_turns": 30,
+        "python_cells": 29,
+        "policy_wall_s": 871.5965473289834,
+        "total_wall_s": 909.5112280329922,
+        "prompt_sha256": "c1f6c5121e7286374d0d705526e8592610fcd321e8e2eb519f5db05680c3c735",
+        "record_counts": {
+          "Reported failure": 2,
+          "Local action scope": 2,
+          "Provisional diagnosis": 7,
+          "Revised diagnosis and proposed correction": 10,
+          "Static observation": 11,
+          "Retry outcome reported by agent": 10
+        },
+        "exception_count": 2
+      },
+      {
+        "id": "25",
+        "task": "build_tower",
+        "layout": 25,
+        "environment_success": false,
+        "native_success": false,
+        "native_score_0_to_100": 0.0,
+        "agent_finish_status": "success",
+        "env_steps": 707,
+        "native_last_step_and_limit": [
+          707,
+          1050
+        ],
+        "tool_turns": 19,
+        "python_cells": 18,
+        "policy_wall_s": 607.4479023169843,
+        "total_wall_s": 648.7139992630109,
+        "prompt_sha256": "eff227a2d34ae9532ba8dcf538e623531335544f07c646f4801a9dbd8ebacf4b",
+        "record_counts": {
+          "Reported failure": 2,
+          "Local action scope": 2,
+          "Provisional diagnosis": 4,
+          "Static observation": 5,
+          "Revised diagnosis and proposed correction": 4,
+          "Retry outcome reported by agent": 4
+        },
+        "exception_count": 3
+      },
+      {
+        "id": "21",
+        "task": "build_tower",
+        "layout": 21,
+        "environment_success": false,
+        "native_success": false,
+        "native_score_0_to_100": 0.0,
+        "agent_finish_status": "success",
+        "env_steps": 646,
+        "native_last_step_and_limit": [
+          646,
+          1050
+        ],
+        "tool_turns": 20,
+        "python_cells": 19,
+        "policy_wall_s": 587.063305349031,
+        "total_wall_s": 627.0247515540104,
+        "prompt_sha256": "c3772b83ccb40eadb3d9bf617c7d8960a9d79e25be4ebdb6134182605b602a42",
+        "record_counts": {
+          "Reported failure": 4,
+          "Local action scope": 4,
+          "Provisional diagnosis": 4,
+          "Revised diagnosis and proposed correction": 4,
+          "Static observation": 5,
+          "Retry outcome reported by agent": 4
+        },
+        "exception_count": 2
+      },
+      {
+        "id": "32",
+        "task": "build_tower",
+        "layout": 32,
+        "environment_success": false,
+        "native_success": false,
+        "native_score_0_to_100": 0.0,
+        "agent_finish_status": "success",
+        "env_steps": 627,
+        "native_last_step_and_limit": [
+          627,
+          1050
+        ],
+        "tool_turns": 20,
+        "python_cells": 19,
+        "policy_wall_s": 566.905395106005,
+        "total_wall_s": 606.7142160129733,
+        "prompt_sha256": "8951b7d4717ab6f6c9dd64793fd2b1a2337076b66b57d80ab35077d980333582",
+        "record_counts": {
+          "Reported failure": 3,
+          "Local action scope": 3,
+          "Provisional diagnosis": 4,
+          "Static observation": 7,
+          "Revised diagnosis and proposed correction": 5,
+          "Retry outcome reported by agent": 5
+        },
+        "exception_count": 3
+      },
+      {
+        "id": "41",
+        "task": "build_tower",
+        "layout": 41,
+        "environment_success": false,
+        "native_success": false,
+        "native_score_0_to_100": 0.0,
+        "agent_finish_status": "failure",
+        "env_steps": 1049,
+        "native_last_step_and_limit": [
+          1050,
+          1050
+        ],
+        "tool_turns": 33,
+        "python_cells": 32,
+        "policy_wall_s": 985.1991539010196,
+        "total_wall_s": 1023.7212755960063,
+        "prompt_sha256": "4a0458e0e4b65ef710964d0538f9e75b97115f2a7450701e7f31caa3bbd2dcd1",
+        "record_counts": {
+          "Reported failure": 3,
+          "Local action scope": 3,
+          "Provisional diagnosis": 7,
+          "Revised diagnosis and proposed correction": 12,
+          "Static observation": 8,
+          "Retry outcome reported by agent": 11
+        },
+        "exception_count": 5
+      },
+      {
+        "id": "20",
+        "task": "build_tower",
+        "layout": 20,
+        "environment_success": false,
+        "native_success": false,
+        "native_score_0_to_100": 0.0,
+        "agent_finish_status": "success",
+        "env_steps": 589,
+        "native_last_step_and_limit": [
+          589,
+          1050
+        ],
+        "tool_turns": 20,
+        "python_cells": 19,
+        "policy_wall_s": 620.1243868899764,
+        "total_wall_s": 659.877922818996,
+        "prompt_sha256": "5d4a8ed7a708625afe41a9a2072b37d3ca17aeeae6cc3d8589ec8d9ed16b0c57",
+        "record_counts": {
+          "Reported failure": 3,
+          "Local action scope": 3,
+          "Provisional diagnosis": 6,
+          "Static observation": 7,
+          "Revised diagnosis and proposed correction": 5,
+          "Retry outcome reported by agent": 5
+        },
+        "exception_count": 3
+      },
+      {
+        "id": "36",
+        "task": "build_tower",
+        "layout": 36,
+        "environment_success": false,
+        "native_success": false,
+        "native_score_0_to_100": 10.0,
+        "agent_finish_status": "failure",
+        "env_steps": 1039,
+        "native_last_step_and_limit": [
+          1039,
+          1050
+        ],
+        "tool_turns": 42,
+        "python_cells": 41,
+        "policy_wall_s": 1300.813913798018,
+        "total_wall_s": 1340.8766758400016,
+        "prompt_sha256": "d1e1537b1c31539b76a3090f47831b0ecb673235b3cc62fc05d08b30b50d2323",
+        "record_counts": {
+          "Reported failure": 1,
+          "Local action scope": 2,
+          "Provisional diagnosis": 11,
+          "Boundary review": 2,
+          "Static observation": 10,
+          "Revised diagnosis and proposed correction": 12,
+          "Retry outcome reported by agent": 5
+        },
+        "exception_count": 8
+      },
+      {
+        "id": "0",
+        "task": "build_tower",
+        "layout": 0,
+        "environment_success": false,
+        "native_success": false,
+        "native_score_0_to_100": 0.0,
+        "agent_finish_status": "success",
+        "env_steps": 715,
+        "native_last_step_and_limit": [
+          715,
+          1050
+        ],
+        "tool_turns": 24,
+        "python_cells": 23,
+        "policy_wall_s": 695.2696083810297,
+        "total_wall_s": 734.8498099040007,
+        "prompt_sha256": "77ed54c9a75a1a151f6c578c7621c52717da2375634f16381f3b042dd301d5f3",
+        "record_counts": {
+          "Reported failure": 2,
+          "Local action scope": 2,
+          "Provisional diagnosis": 2,
+          "Revised diagnosis and proposed correction": 5,
+          "Static observation": 6,
+          "Retry outcome reported by agent": 5
+        },
+        "exception_count": 0
+      }
+    ],
+    "batch_status": "completed",
+    "batch_summary": {
+      "planned": 10,
+      "completed": 10,
+      "successes": 2,
+      "success_rate_completed": 0.2,
+      "mean_score_completed": 22.0
+    }
+  },
+  {
+    "experiment": "recovery-three-tasks-random10-20261116-resume1",
+    "source_analysis_sha256": "3163b7e6b77c3d94788860a9fad7a361d1e8c282b38eb2fe62660ec4c1edd016",
+    "contemporaneous_baseline": false,
+    "episodes": [
+      {
+        "id": "plug_in_charger-l13",
+        "task": "plug_in_charger",
+        "layout": 13,
+        "environment_success": false,
+        "native_success": false,
+        "native_score_0_to_100": 0.0,
+        "agent_finish_status": "failure",
+        "env_steps": 399,
+        "native_last_step_and_limit": [
+          400,
+          400
+        ],
+        "tool_turns": 23,
+        "python_cells": 22,
+        "policy_wall_s": 640.7192113319761,
+        "total_wall_s": 676.381278737972,
+        "prompt_sha256": "93cd923ac8fa162696902d3ae892d95d639ed66e8e2747bf7f1d4bfa96704e5a",
+        "record_counts": {
+          "Reported failure": 2,
+          "Local action scope": 3,
+          "Provisional diagnosis": 7,
+          "Static observation": 13,
+          "Revised diagnosis and proposed correction": 11,
+          "Retry outcome reported by agent": 10
+        },
+        "exception_count": 3
+      },
+      {
+        "id": "plug_in_charger-l49",
+        "task": "plug_in_charger",
+        "layout": 49,
+        "environment_success": false,
+        "native_success": false,
+        "native_score_0_to_100": 0.0,
+        "agent_finish_status": "failure",
+        "env_steps": 399,
+        "native_last_step_and_limit": [
+          400,
+          400
+        ],
+        "tool_turns": 25,
+        "python_cells": 24,
+        "policy_wall_s": 712.2396575050079,
+        "total_wall_s": 746.9244791619712,
+        "prompt_sha256": "2124137db9fb07dd662c8838aebdc400ccdf6f35976e06d1fbdf33fa6e276406",
+        "record_counts": {
+          "Reported failure": 4,
+          "Local action scope": 4,
+          "Provisional diagnosis": 10,
+          "Static observation": 7,
+          "Revised diagnosis and proposed correction": 10,
+          "Retry outcome reported by agent": 9
+        },
+        "exception_count": 1
+      },
+      {
+        "id": "plug_in_charger-l40",
+        "task": "plug_in_charger",
+        "layout": 40,
+        "environment_success": false,
+        "native_success": false,
+        "native_score_0_to_100": 0.0,
+        "agent_finish_status": "failure",
+        "env_steps": 327,
+        "native_last_step_and_limit": [
+          327,
+          400
+        ],
+        "tool_turns": 24,
+        "python_cells": 23,
+        "policy_wall_s": 729.9804373040097,
+        "total_wall_s": 959.5762954920065,
+        "prompt_sha256": "6131179eb25ceb104a13a73d7a0b850c1fe283e801064e10bc59d9ca9a853d87",
+        "record_counts": {
+          "Reported failure": 2,
+          "Local action scope": 2,
+          "Provisional diagnosis": 6,
+          "Revised diagnosis and proposed correction": 5,
+          "Static observation": 4,
+          "Retry outcome reported by agent": 4
+        },
+        "exception_count": 1
+      },
+      {
+        "id": "plug_in_charger-l25",
+        "task": "plug_in_charger",
+        "layout": 25,
+        "environment_success": false,
+        "native_success": false,
+        "native_score_0_to_100": 0.0,
+        "agent_finish_status": "failure",
+        "env_steps": 399,
+        "native_last_step_and_limit": [
+          400,
+          400
+        ],
+        "tool_turns": 28,
+        "python_cells": 27,
+        "policy_wall_s": 870.626817857963,
+        "total_wall_s": 905.6170171179692,
+        "prompt_sha256": "58087382fcb0c9f3f95561c7f618a36ce4b79fa83e49c1b4d4a46875524ade1f",
+        "record_counts": {
+          "Reported failure": 3,
+          "Local action scope": 4,
+          "Provisional diagnosis": 5,
+          "Revised diagnosis and proposed correction": 8,
+          "Static observation": 6,
+          "Retry outcome reported by agent": 7
+        },
+        "exception_count": 4
+      },
+      {
+        "id": "plug_in_charger-l21",
+        "task": "plug_in_charger",
+        "layout": 21,
+        "environment_success": false,
+        "native_success": false,
+        "native_score_0_to_100": 0.0,
+        "agent_finish_status": "failure",
+        "env_steps": 391,
+        "native_last_step_and_limit": [
+          391,
+          400
+        ],
+        "tool_turns": 23,
+        "python_cells": 22,
+        "policy_wall_s": 624.203182858997,
+        "total_wall_s": 661.4011823420296,
+        "prompt_sha256": "f5c643eb9d832a5aee075f8a3d9bb7bf6ce0044520ad83594c098eced4501986",
+        "record_counts": {
+          "Reported failure": 2,
+          "Local action scope": 3,
+          "Provisional diagnosis": 8,
+          "Revised diagnosis and proposed correction": 11,
+          "Static observation": 12,
+          "Retry outcome reported by agent": 11
+        },
+        "exception_count": 1
+      },
+      {
+        "id": "plug_in_charger-l32",
+        "task": "plug_in_charger",
+        "layout": 32,
+        "environment_success": false,
+        "native_success": false,
+        "native_score_0_to_100": 0.0,
+        "agent_finish_status": "failure",
+        "env_steps": 371,
+        "native_last_step_and_limit": [
+          371,
+          400
+        ],
+        "tool_turns": 28,
+        "python_cells": 27,
+        "policy_wall_s": 680.1880634120316,
+        "total_wall_s": 716.805970928981,
+        "prompt_sha256": "2708e64d493c02325f04ebc6a24c1c06b116b08c2a2c5bee916ce4e7a5f65371",
+        "record_counts": {
+          "Reported failure": 2,
+          "Local action scope": 4,
+          "Provisional diagnosis": 8,
+          "Static observation": 13,
+          "Revised diagnosis and proposed correction": 12,
+          "Retry outcome reported by agent": 12
+        },
+        "exception_count": 3
+      },
+      {
+        "id": "plug_in_charger-l41",
+        "task": "plug_in_charger",
+        "layout": 41,
+        "environment_success": false,
+        "native_success": false,
+        "native_score_0_to_100": 0.0,
+        "agent_finish_status": "failure",
+        "env_steps": 364,
+        "native_last_step_and_limit": [
+          364,
+          400
+        ],
+        "tool_turns": 31,
+        "python_cells": 30,
+        "policy_wall_s": 882.087415040005,
+        "total_wall_s": 918.8379925430054,
+        "prompt_sha256": "5de822ebdc6e5caf5bc2fb9e56416f425c9942955befab37264505765a17ef77",
+        "record_counts": {
+          "Reported failure": 1,
+          "Local action scope": 1,
+          "Provisional diagnosis": 5,
+          "Revised diagnosis and proposed correction": 9,
+          "Static observation": 4,
+          "Retry outcome reported by agent": 9
+        },
+        "exception_count": 3
+      }
+    ],
+    "batch_status": "stopped_by_user",
+    "planned_task_summary": {
+      "plug_in_charger": {
+        "planned": 10,
+        "archived_attempts": 7,
+        "completed": 7,
+        "successes": 0,
+        "success_rate_completed": 0.0,
+        "mean_score_completed": 0.0
+      },
+      "hang_mugs": {
+        "planned": 10,
+        "archived_attempts": 0,
+        "completed": 0,
+        "successes": 0,
+        "success_rate_completed": null,
+        "mean_score_completed": null
+      },
+      "pour_liquid_into_cup": {
+        "planned": 10,
+        "archived_attempts": 0,
+        "completed": 0,
+        "successes": 0,
+        "success_rate_completed": null,
+        "mean_score_completed": null
+      }
+    },
+    "excluded_attempts": [
+      {
+        "task": "plug_in_charger",
+        "layout": 20,
+        "status": "user_aborted",
+        "included_in_completed_denominator": false
+      },
+      {
+        "status": "prior_environment_boot_failure",
+        "included_in_completed_denominator": false,
+        "archive_id": "recovery-three-tasks-random10-20261116"
+      }
+    ]
+  },
+  {
+    "experiment": "tower-information-boundary-20261117",
+    "source_analysis_sha256": "beaa2e45be8885595fe11f752a0cecd162f0389f093b19748bb665400269930f",
+    "contemporaneous_baseline": false,
+    "episodes": [
+      {
+        "id": "single",
+        "task": "build_tower",
+        "layout": 0,
+        "environment_success": false,
+        "native_success": false,
+        "native_score_0_to_100": 0.0,
+        "agent_finish_status": "success",
+        "env_steps": 708,
+        "native_last_step_and_limit": [
+          708,
+          1050
+        ],
+        "tool_turns": 25,
+        "python_cells": 24,
+        "policy_wall_s": 1076.6969616260612,
+        "total_wall_s": 1120.5643329069717,
+        "prompt_sha256": "065bd221c2e3264e75832cb0849c618309262691438a792a780242df7a76029f",
+        "record_counts": {
+          "Reported failure": 4,
+          "Local action scope": 4,
+          "Provisional diagnosis": 4,
+          "Static observation": 9,
+          "Revised diagnosis and proposed correction": 5,
+          "Retry outcome reported by agent": 5
+        },
+        "exception_count": 1
+      }
+    ]
+  },
+  {
+    "experiment": "charger-information-boundary-20261117",
+    "source_analysis_sha256": "ff6404c2ddbda70069cd95281611cc1335b9801fbe88a01d265777c4481d6b5d",
+    "contemporaneous_baseline": false,
+    "episodes": [
+      {
+        "id": "single",
+        "task": "plug_in_charger",
+        "layout": 13,
+        "environment_success": false,
+        "native_success": false,
+        "native_score_0_to_100": 0.0,
+        "agent_finish_status": "failure",
+        "env_steps": 367,
+        "native_last_step_and_limit": [
+          367,
+          400
+        ],
+        "tool_turns": 22,
+        "python_cells": 21,
+        "policy_wall_s": 687.3596568770008,
+        "total_wall_s": 727.2814531460172,
+        "prompt_sha256": "254c8e2612ba8e2604915f5d6a80234af8f0b16b6f35b6f90f3376f6b3f57619",
+        "record_counts": {
+          "Reported failure": 1,
+          "Local action scope": 1,
+          "Provisional diagnosis": 5,
+          "Revised diagnosis and proposed correction": 9,
+          "Static observation": 9,
+          "Retry outcome reported by agent": 9
+        },
+        "exception_count": 1
+      }
+    ]
+  },
+  {
+    "experiment": "hang-mugs-information-boundary-20261117",
+    "source_analysis_sha256": "7ca8e449daab269d0f306cdb36a27b341988463c496e9897b3cb9bd55ecc79fa",
+    "contemporaneous_baseline": false,
+    "episodes": [
+      {
+        "id": "single",
+        "task": "hang_mugs",
+        "layout": 6,
+        "environment_success": false,
+        "native_success": false,
+        "native_score_0_to_100": 40.0,
+        "agent_finish_status": "success",
+        "env_steps": 350,
+        "native_last_step_and_limit": [
+          350,
+          800
+        ],
+        "tool_turns": 22,
+        "python_cells": 21,
+        "policy_wall_s": 620.2327501350082,
+        "total_wall_s": 684.47537796502,
+        "prompt_sha256": "faffd5eb078be68b4f91d0c0e5eb21eb40a2a2261e9e72b8f797e73179077cd0",
+        "record_counts": {
+          "Reported failure": 2,
+          "Local action scope": 2,
+          "Provisional diagnosis": 2,
+          "Static observation": 5,
+          "Revised diagnosis and proposed correction": 3,
+          "Retry outcome reported by agent": 3
+        },
+        "exception_count": 0
+      }
+    ]
+  },
+  {
+    "experiment": "pen-holder-information-boundary-20261117",
+    "source_analysis_sha256": "2674e4c9e8ab602814aadff25c7b71270350f1c2376cb95d3e2ae31baeaede80",
+    "contemporaneous_baseline": false,
+    "episodes": [
+      {
+        "id": "single",
+        "task": "fill_pen_holder",
+        "layout": 13,
+        "environment_success": false,
+        "native_success": false,
+        "native_score_0_to_100": 25.0,
+        "agent_finish_status": "failure",
+        "env_steps": 1084,
+        "native_last_step_and_limit": [
+          1084,
+          1100
+        ],
+        "tool_turns": 44,
+        "python_cells": 43,
+        "policy_wall_s": 1461.1140362080187,
+        "total_wall_s": 1515.1700509460643,
+        "prompt_sha256": "7a9d31352d4c71f74e9950eb13f25217d6b709aab8b5f5a5020dc96875ad75f7",
+        "record_counts": {
+          "Reported failure": 2,
+          "Local action scope": 3,
+          "Provisional diagnosis": 10,
+          "Revised diagnosis and proposed correction": 24,
+          "Static observation": 26,
+          "Retry outcome reported by agent": 23
+        },
+        "exception_count": 1
+      }
+    ]
+  }
+]

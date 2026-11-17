@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "robocodify"
+version = "0.1.0.dev0"
+description = "Reusable programs for robotic agents; experimental recovery over PyRUA-Lean"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE", "third_party/PyRUA-Lean-NOTICE"]
+dependencies = ["numpy"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+py-modules = ["static_recovery"]
+
+[tool.pytest.ini_options]
+addopts = ["--import-mode=importlib"]
+pythonpath = ["src", ".upstream/PyRUA-Lean/src"]
+testpaths = ["tests"]

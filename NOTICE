@@ -1,0 +1,34 @@
+RoboCodify
+Copyright 2026 RoboCodify Contributors
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+Research baseline:
+  PyRUA-Lean: https://github.com/DAGroup-PKU/PyRUA-Lean
+  Commit: e754cf43c822b91f4728777a78071fa4e012c371
+  Copyright 2026 PyRUA-Lean Contributors; Apache-2.0.
+
+RoboCodify uses PyRUA-Lean's existing Python cells, public robot APIs,
+perception/motion tools, and recovery guidance. The experimental prompt appendix
+builds on that guidance. The external launcher follows our earlier integration
+with PyRUA-Lean's build_prompt/play.main entrypoints. It adds a workspace module
+and an initial prompt appendix, without replacing the controller or evaluator.
+The core recovery module and prompt are our experimental additions; this repository
+does not claim authorship of the upstream cells, geometry methods or robot primitives.
+
+The test suite imports the separately obtained, fixed PyRUA-Lean checkout.
+Its complete original NOTICE is retained in third_party/PyRUA-Lean-NOTICE for
+attribution context; the referenced RPent and GenieSim implementations/assets
+are not redistributed by RoboCodify.
+
+PyRUA-Lean paper:
+  Fewer Tokens, Better Action: GPT-6 Astra Robot Agents with 14% Higher
+  Success Rate but 65% Fewer Tokens. arXiv:2610.01939.
+  https://arxiv.org/abs/2610.01939
+
+tests/fixtures/recovery_before_compaction.py is our frozen earlier recovery
+implementation, retained only for a behavioral regression comparison.
+See provenance.json for original file hashes and migration changes.
+
+RoboDojo task definitions, layouts, assets, native scoring and simulator code
+are external dependencies. Existing experiments include documented compatibility
+adaptations and are not presented as official current-protocol benchmark results.

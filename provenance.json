@@ -1,0 +1,61 @@
+{
+  "project": "RoboCodify",
+  "prepared_on": "2026-11-17",
+  "baseline": {
+    "repository": "https://github.com/DAGroup-PKU/PyRUA-Lean",
+    "commit": "e754cf43c822b91f4728777a78071fa4e012c371"
+  },
+  "unchanged_files": {
+    "src/static_recovery.py": {
+      "source_archive_path": "static-recovery/static_recovery.py",
+      "sha256": "3c8b184099414fd9bf81aaf7d67a4b643caecf931afe3258c72ee0de583b5357"
+    },
+    "integrations/pyrua_lean/prompt.md": {
+      "source_archive_path": "static-recovery/prompt.md",
+      "sha256": "336e7deedab584a9f4a34c66e071ac3fa1f912e633683f50f82d36e987f62d7c"
+    },
+    "tests/fixtures/recovery_before_compaction.py": {
+      "source_archive_path": "research-evidence/recovery-context-20261116/before/static_recovery.py",
+      "sha256": "877c88e2d2cb7384fa069c7443fb3c75aa98825f75b82dfcc71163f6e540c106"
+    }
+  },
+  "original_documents": {
+    "README.md": {
+      "sha256": "c22ddf89a9fd54eead3e7104950ef54220ff3a5d5fcfe91e8501f79ec24b1f7f",
+      "storage": "external original research workspace; not redistributed in full"
+    },
+    "RESEARCH_PROTOCOL.md": {
+      "sha256": "673fbf8a7dac69b4d3924e88c35aae39f7b797f8b500443526689969888d1502",
+      "storage": "external original research workspace; not redistributed in full"
+    },
+    "RESEARCH_IDEAS.md": {
+      "sha256": "4c890064c193666b67985765e60b26ee45a45c27212d3b5b50450e42d417191d",
+      "storage": "external original research workspace; not redistributed in full"
+    },
+    "IDEA-001-IMPLEMENTATION.md": {
+      "sha256": "da69069fa63b3f66a337b65e681ab085bcdb6bdf2be9e06515a7048a7a2726d9",
+      "storage": "external original research workspace; not redistributed in full"
+    }
+  },
+  "migration": {
+    "core_behavior": "unchanged",
+    "prompt": "unchanged",
+    "tests": "replace historical-directory imports with pinned author source and a small historical fixture; add launcher test",
+    "launcher": "retain existing workspace/prompt hook; task, model, budgets and paths use author CLI; no new simulator run",
+    "history": "old workspaces and frozen runs preserved externally; uncommitted keyframe diff and untracked file backed up in robocodify-initial-20261117"
+  },
+  "upstream_notices": {
+    "LICENSE": "4135cedb444c19860a53c85dc984b9c0a9644cba632c8ef44c45cbb1f88699b2",
+    "third_party/PyRUA-Lean-NOTICE": "711507a1207afa8d573759c0b5b68979db8f2c91ac7401d45ac7c2e9793b9745"
+  },
+  "validation": {
+    "date": "2026-11-17",
+    "python": "3.13.2",
+    "platform": "Windows",
+    "environment": "fresh isolated venv; requirements-test.txt; pinned upstream checkout",
+    "tests_passed": 58,
+    "tests_skipped": 0,
+    "editable_install": "passed",
+    "robot_experiment": "not rerun after migration"
+  }
+}
